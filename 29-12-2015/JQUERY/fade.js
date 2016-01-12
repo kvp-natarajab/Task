@@ -1,0 +1,16 @@
+$(function(){
+	$("")
+	$("#btn1").click(function(){
+		$("#div1").fadeIn("slow");
+		$("#div2").fadeIn(3000);
+	});
+	$("#btn2").click(function(){
+		$("#div2").fadeOut(3000);
+	});
+	$("#btn3").click(function(){
+		$("#div2").fadeToggle(2000);
+	});
+	$("#btn4").click(function(){
+		$("#div1").fadeTo("slow",0.3);
+	});
+});

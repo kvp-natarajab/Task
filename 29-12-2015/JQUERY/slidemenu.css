@@ -1,0 +1,119 @@
+.navigation{
+	width:1000px;
+	height:60px;
+	background-color:#0F6D8C;
+	position: fixed;
+}
+
+.subMenu,.nav{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	margin:0px 5px 5px 0px;
+	border-radius:0 10px;
+	width:120px;
+	padding:10px;
+	text-align:center;
+	
+	color:#fff;	
+}
+.navMenu a{
+	float:left;
+	background-color:#C03;
+}
+
+.navMenu a:hover,.navMenu a.active{
+	background-color:#F90;
+	color:#000;
+}
+.subMenu{
+	height:60px;
+}
+#subDiv li{
+	width:100px;
+	height:30px;
+	background-color:#99cc00;
+	padding:5px;
+}
+#subDiv li:hover{
+	background-color:#cc6600;
+}
+#subDiv{
+	clear:both;
+	padding-left:180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav{
+	height:60px;
+	background-color:#99cc00;
+}
+.menu{
+	list-style-type: none;
+}
+
+
+.menuEle a{
+	margin:0px 5px 5px 0px;
+	width:100px;
+	height:40px;
+	background-color:#99cc00;
+	padding:5px;
+	text-align: center;
+	float:left;
+}
+#subDiv li{
+	list-style-type: none;
+	width:100px;
+	height:30px;
+	background-color:#99cc00;
+	padding:5px;
+	text-align: center;	
+
+}
+a{
+	text-decoration: none;	
+}
+#subDiv li:hover{
+	background-color:#cc6600;
+}
+#subDiv{
+	display: none;
+	clear:both;
+}*/

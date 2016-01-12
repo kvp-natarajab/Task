@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header{
+	background-color: #000;
+	height:60px;
+}
+
+.top{
+	float:left;
+	text-align: center;
+	
+	padding-top: 10px;
+}
+.toplefttDiv{
+	
+	width:500px;
+	height:inherit;
+	
+}
+.topRightDiv span a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 12px;
+	padding: 60px 0px 0px 40px;
+}
+.centerDiv{
+	height:563px;
+	background: url(images/rsz_64xk850n3a8uzse6fi11l3vmz.jpg) no-repeat center top/ 100% 100%;
+	padding: 10px 0px 10px;
+}
+.bottomDiv{
+	height:350px;
+	background-color:#4d4d4d;
+}
+.index_footer{
+	height:400px;
+}
+
+.signupDiv{
+	width:400px;
+	height:480px;
+	background-color:#f2f2f2;
+	margin:0 auto;
+	padding:0px 10px 0px 10px;
+}
+.bottom_top_div{
+	height:125px;
+	border-bottom:1px solid white;
+}
+.bottom_bottom_div{
+	height:225px;
+}
+.both{
+	width:700px;
+	margin:0 auto;
+	padding:20px;
+}
+.topBotcommon{
+	margin-bottom: 5px;
+}
+.bottom_top_div h3{
+	float:left;
+}
+.bottom_top_div li a{
+	float:left;
+	margin-left:2px;
+	text-decoration: none;
+	color:#0066ff;
+}
+
+.signupDiv legend{
+	font-size: 12px;
+}
+#msgTxt{
+	display: none;
+}
+.reg_form{
+	padding-top: 20px;
+	text-align: center;
+}
+.reg_form span{
+	font-size: 12px;
+}
+.elements{
+	margin-bottom:10px;
+	padding-left:15px; 
+	width:380px;
+	height:40px;
+}
+.foot{
+	background-color: #000;
+	height:81px;
+	color:#fff;
+}
+.fot{
+	float: left;
+	height:72px;
+	width:340px;
+}
+.head_info,.head_sub_info{
+	text-align: center;
+	padding-top: 10px;
+}
+.btn{
+	margin-top:10px;
+	text-align: center;
+	padding:10px 0px 10px 0px;
+	background-color:yellow;
+	border:none;
+	border-radius: 2px;
+	font-weight: 600;
+}
+.topBotcommon{
+	height:30px;
+}

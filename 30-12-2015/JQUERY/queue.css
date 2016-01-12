@@ -1,0 +1,14 @@
+#div1{
+	position: relative;
+	border:1px solid black;
+	width:1000px;
+	margin:0 auto;
+	height:600px;
+}
+
+#div2{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color: #ff0000;
+}

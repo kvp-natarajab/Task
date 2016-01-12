@@ -1,0 +1,42 @@
+validate_password(password);
+
+function validateEmail($email) {
+  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+  return emailReg.test( $email );
+}
+
+function validate_password(password){
+		var msg="";
+		var isTrue=false;
+		if(password==""){
+			isTrue=true;
+			msg="Please enter your Password";
+		}
+		if(password.length>=0 || password.length<=6){
+			isTrue=true;
+			msg="Password must conatin 6 or more characters";
+		}
+		if(isTrue){
+			$("#password").css("border","1px solid red");
+			$("#msgTxt").show(500).css("background-color","#ff0000").val(msg);
+		}
+}
+
+
+if(firstName==""){
+			$("#fname").css("border","1px solid red");
+			$("#msgTxt").show(500).css("background-color","#ff0000").val("Please enter your first name");
+		}
+		if(lastName==""){
+			$("#lname").css("border","1px solid red");
+			$("#msgTxt").show(500).css("background-color","#ff0000").val("Please enter your last name");
+		}
+		if(email==""){
+			$("#email").css("border","1px solid red");
+			$("#msgTxt").show(500).css("background-color","#ff0000").val("Please enter your email");
+		}
+
+		if(password==""){
+			$("#password").css("border","1px solid red");
+			$("#msgTxt").show(500).css("background-color","#ff0000").val("Please enter your password");
+		}

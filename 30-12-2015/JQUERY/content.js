@@ -1,0 +1,20 @@
+$(function(){
+	$("#btn1").click(function(){
+		alert($("#p1").text());
+	});
+	$("#btn2").click(function(){
+		alert($("#p1").html());
+	});
+	$("#btn3").click(function(){
+		alert($(".txt").val());
+	});
+	$("#btn4").click(function(){
+		$("#p1").text("Welcome to india");
+	});
+	$("#btn5").click(function(){
+		$("#p1").html("<b>IT</b>");
+	});
+	$("#btn6").click(function(){
+		$(".txt").val("Nataraj");
+	});
+});
